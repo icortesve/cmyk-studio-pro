@@ -1,0 +1,14 @@
+# Entorno virtual local (NO subir a GitHub)
+venv/
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Salidas de prueba
+output_halftone/
+
+# Configuraciones locales de sistema/editor
+.vscode/
+.DS_Store

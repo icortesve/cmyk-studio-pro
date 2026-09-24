@@ -36,6 +36,22 @@
 ## 🔧 Instalación y Ejecución Local
 
 1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/TU_USUARIO/cmyk-studio-pro.git](https://github.com/TU_USUARIO/cmyk-studio-pro.git)
-   cd cmyk-studio-pro
+    git clone https://github.com/icortesve/cmyk-studio-pro.git
+    cd cmyk-studio-pro
+
+2. **Crear y activar un entorno virtual:**
+    python -m venv venv
+    # En Windows (PowerShell):
+    .\venv\Scripts\activate
+
+3. **Instalar dependencias:**
+    pip install -r requirements.txt
+
+4. **Ejecutar la aplicación Streamlit:**
+    streamlit run app.py
+
+---
+
+## 📄 Licencia
+
+Distribución bajo Licencia MIT.
